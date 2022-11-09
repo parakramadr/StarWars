@@ -18,7 +18,6 @@
 		B5A1D5C0291AD3FC000972DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A1D5BE291AD3FC000972DD /* Main.storyboard */; };
 		B5A1D5DB291AD51E000972DD /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A1D5C5291AD51D000972DD /* Planet.swift */; };
 		B5A1D5DE291AD51E000972DD /* PlanetsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A1D5C9291AD51E000972DD /* PlanetsVM.swift */; };
-		B5A1D5DF291AD51E000972DD /* String+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A1D5CB291AD51E000972DD /* String+Localizable.swift */; };
 		B5A1D5E3291AD51E000972DD /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A1D5D0291AD51E000972DD /* ActivityIndicator.swift */; };
 		B5A1D5E4291AD51E000972DD /* loaderAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = B5A1D5D1291AD51E000972DD /* loaderAnimation.json */; };
 		B5A1D5E5291AD51E000972DD /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A1D5D3291AD51E000972DD /* NetworkService.swift */; };
@@ -68,7 +67,6 @@
 		B5A1D5BF291AD3FC000972DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5A1D5C5291AD51D000972DD /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		B5A1D5C9291AD51E000972DD /* PlanetsVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetsVM.swift; sourceTree = "<group>"; };
-		B5A1D5CB291AD51E000972DD /* String+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localizable.swift"; sourceTree = "<group>"; };
 		B5A1D5D0291AD51E000972DD /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		B5A1D5D1291AD51E000972DD /* loaderAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loaderAnimation.json; sourceTree = "<group>"; };
 		B5A1D5D3291AD51E000972DD /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
@@ -194,7 +192,6 @@
 		B5A1D5CA291AD51E000972DD /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				B5A1D5CB291AD51E000972DD /* String+Localizable.swift */,
 				B5A1D5CF291AD51E000972DD /* ActivityIndicator */,
 			);
 			path = Helper;
@@ -430,7 +427,6 @@
 				B5A1D5E7291AD51E000972DD /* PlanetsVC.swift in Sources */,
 				B5A1D5E5291AD51E000972DD /* NetworkService.swift in Sources */,
 				B5A1D5E6291AD51E000972DD /* API+Moya.swift in Sources */,
-				B5A1D5DF291AD51E000972DD /* String+Localizable.swift in Sources */,
 				B5A1D5DB291AD51E000972DD /* Planet.swift in Sources */,
 				B5A1D591291AC93F000972DD /* SceneDelegate.swift in Sources */,
 				B5A1D5E8291AD51E000972DD /* ViewFactory.swift in Sources */,
